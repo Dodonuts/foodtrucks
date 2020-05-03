@@ -1,56 +1,79 @@
 <!DOCTYPE html>
 <html>
 
-  <style>
-    table, th, td {
-      border-spacing: 2px;
-    }
-    </style>
-
 <head>
+  <meta charset="utf-8">
   <title>Akatsuki</title>
-</head>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+
 
 <body>
   <img src="img\logo.png" alt="logo Akatsuki Japan" style="width:10%;">
-  <h2> <strong> Chez qui souhaitez-vous commander ?</strong> </h2>
-  <p>Tant de choix !</p>
-  <ul>
-    <li><a href="elcamion.html">El Camion</a> </li>
-    <li><a href="falluchtruck.html"> Falluch'Truck</a></li>
-  </ul>
+  <h1> <strong> Se faire livrer des plats de restaurants</strong> </h1>
+  <div class="main">
+    <p>Vous pouvez commander sur notre site les plats de vos restaurants et foodtrucks préférés, et nous vous livrons le
+      jour de votre choix.</p>
+    <div class="restaurants-container">
+      <h2>Nos restaurants et foodtrucks partenaires </h2>
+      <div class="restaurant-row">
+        <a href="elcamion.html">
+          <img class="logo-restaurant" src="img\elcamion-logo.jpeg" alt="elcamion-logo">
+        </a>
+        <a href="elcamion.html">
+          <h3>El camion</h3>
+        </a>
+        <p>Le Food truck mexicain de Lille ! Spécialités mexicaines: Burritos, Tacos et Quesadillas… Service rapido au
+          pied du bureau !</p>
+      </div>
+      <div class="restaurant-row">
+        <a href="samregal.html">
+          <img class="logo-restaurant" src="img\samregal-logo.jpeg" alt="samregal-logo">
+        </a>
+        <a href="samregal.html">
+          <h3>Sam Regal</h3>
+        </a>
+        <p>Burgers, Welshs, Croquettes et plaisir de déguster</p>
+      </div>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <h2>Pour commander</h2>
+    <form action="mailto:contact.akatsukijapan@gmail.com" method="post" enctype="text/plain">
+      <label for=""> Votre nom: </label>
+      <input type="text" name="your_name"> <br>
+      <label for="">Votre e-mail:</label>
+      <input type="email" name="your_email" id=""> <br>
+      <label for="">Date à laquelle vous souhaitez être livré:</label>
+      <input type="date" value="Submit"> <br>
+      <label for="">Un commentaire ? (ex: allergies)</label>
+      <textarea name="your_message" id="" cols="80" rows="4"></textarea> <br>
+      <input type="submit" value="Envoyer"> <br>
+    </form>
+    <br>
+    <br>
   <br>
-  <table>
-    <thead>
-      <tr>
-        <th>Nom du food truck</th>
-        <th>Style de cuisine</th>
-      </tr>
-    </thead>
-    <tr>
-      <td>El Camion</td>
-      <td>La cuisine mexicaine</td>
-    </tr>
-    <tr>
-      <td>Falluch'Truck</td>
-      <td>La falluche au top</td>
-    </tr>
-  </table>
   <br>
-  <hr>
   <br>
-  <form action="mailto:contact.akatsukijapan@gmail.com" method="post" enctype="text/plain">
-    <label for=""> Your name: </label>
-    <input type="text" name="your_name"> <br>
-    <label for="">Your e-mail:</label>
-    <input type="email" name="your_email" id=""> <br>
-    <input type="date" value="Submit"> <br>
-    <textarea name="your_message" id="" cols="80" rows="4"></textarea> <br>
-    <input type="submit" value="Submit"> <br>
-  </form>
   <br>
-  <!-- yo, ceci est un commentaire -->
-  <a href="contact.html">Contact</a>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</div>
+<!-- yo, ceci est un commentaire -->
+<a href="contact.html">Contact</a>
+<br><br>
+</div>
+
 </body>
 
 </html>

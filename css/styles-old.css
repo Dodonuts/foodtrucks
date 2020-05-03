@@ -1,0 +1,89 @@
+/* **********************Tag selector *************************/
+  body {
+    background-color:white;
+    font-family: "Franklin Gothic Book",Helvetica,'Open Sans', sans-serif;
+    color: #252525;
+  }
+
+  hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 10px;
+    width: 5%;
+    height: 0px;
+  }
+
+  h1 {
+    color: #001e41;
+    font-family: "Franklin Gothic Medium",'Roboto', sans-serif;
+  }
+
+  img:hover {
+    background-color: blueviolet;
+  }
+
+  /*********************** Class selector******************** */
+
+  .bacon{
+    background-color: beige;
+  }
+
+  .broccoli{
+    background-color: brown;
+  }
+
+  .circular{
+    border-radius: 100%;
+  }
+
+  .top-container{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+  }
+  .middle-container{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 100px;
+  }
+
+  .bottom-container{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 200px;
+  }
+
+.container{
+    position: absolute;
+    right: 450px;
+}
+.img_countainer{
+  margin: 0 auto 0 auto;
+  width: 75%;
+}
+
+.mountain{
+  margin: 0 auto 0 auto;
+  display: block;
+}
+.cloud1{
+  display: block;
+  position: absolute;
+  right: 300px;
+
+
+}
+
+
+    /*********************** Id selector******************** */
+  #heading{
+    color: gold;
+    margin: 0 auto 0 auto;
+    text-align: center;
+  }
